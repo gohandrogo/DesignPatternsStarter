@@ -1,5 +1,7 @@
 package io.zipcoder.designpatterns.factory;
 
+import io.zipcoder.designpatterns.factory.Soda.Soda;
+import io.zipcoder.designpatterns.factory.Soda.SodaMachine;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +21,7 @@ public class SodaMachineSpec {
 
     @Test
     public void dispense() throws Exception {
-        boolean cond = sodaMachine.dispense() instanceof  Soda;
+        boolean cond = sodaMachine.dispense() instanceof Soda;
         assertTrue(cond);
     }
 

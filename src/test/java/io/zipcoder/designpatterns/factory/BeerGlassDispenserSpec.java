@@ -1,5 +1,7 @@
 package io.zipcoder.designpatterns.factory;
 
+import io.zipcoder.designpatterns.factory.Beer.BeerGlass;
+import io.zipcoder.designpatterns.factory.Beer.BeerGlassDispenser;
 import org.junit.Before;
 import org.junit.Test;
 

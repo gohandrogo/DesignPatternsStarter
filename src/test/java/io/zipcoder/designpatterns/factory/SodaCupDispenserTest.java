@@ -1,5 +1,7 @@
 package io.zipcoder.designpatterns.factory;
 
+import io.zipcoder.designpatterns.factory.Soda.SodaCup;
+import io.zipcoder.designpatterns.factory.Soda.SodaCupDispenser;
 import org.junit.Before;
 import org.junit.Test;
 

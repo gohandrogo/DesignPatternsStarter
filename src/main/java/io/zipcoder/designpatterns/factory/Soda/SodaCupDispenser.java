@@ -1,4 +1,6 @@
-package io.zipcoder.designpatterns.factory;
+package io.zipcoder.designpatterns.factory.Soda;
+
+import io.zipcoder.designpatterns.factory.Super.CupDispenser;
 
 /**
  * Created by alejandrolondono on 6/13/16.

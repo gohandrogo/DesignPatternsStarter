@@ -1,8 +1,7 @@
 package io.zipcoder.designpatterns.abstractfactory;
 
-import io.zipcoder.designpatterns.factory.SodaCup;
-import io.zipcoder.designpatterns.factory.SodaCupDispenser;
-import io.zipcoder.designpatterns.factory.SodaDispenser;
+import io.zipcoder.designpatterns.factory.Soda.SodaCupDispenser;
+import io.zipcoder.designpatterns.factory.Soda.SodaMachine;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,7 +21,7 @@ public class SodaDispensingSystemSpec {
 
     @Test
     public void drinkDispenserTest() throws Exception {
-        assertTrue(DispSystem.drinkDispenser() instanceof SodaDispenser);
+        assertTrue(DispSystem.drinkDispenser() instanceof SodaMachine);
     }
 
     @Test
