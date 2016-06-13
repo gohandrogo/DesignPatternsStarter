@@ -2,6 +2,8 @@ package io.zipcoder.designpatterns.abstractfactory;
 
 import io.zipcoder.designpatterns.factory.CupDispenser;
 import io.zipcoder.designpatterns.factory.DrinkDispenser;
+import io.zipcoder.designpatterns.factory.SodaCupDispenser;
+import io.zipcoder.designpatterns.factory.SodaDispenser;
 
 /**
  * Created by alejandrolondono on 6/13/16.
@@ -9,11 +11,11 @@ import io.zipcoder.designpatterns.factory.DrinkDispenser;
 public class SodaDispensingSystem extends DispensingSystem {
     @Override
     public DrinkDispenser drinkDispenser() {
-        return null;
+        return new SodaDispenser();
     }
 
     @Override
     public CupDispenser cupDispenser() {
-        return null;
+        return new SodaCupDispenser();
     }
 }
