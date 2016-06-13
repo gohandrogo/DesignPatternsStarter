@@ -8,21 +8,18 @@ import static org.junit.Assert.*;
 /**
  * Created by alejandrolondono on 6/13/16.
  */
-public class BeerGlassDispenserSpec {
+public class CoffeeCupDispenserSpec {
 
-    BeerGlassDispenser dispenser;
+    CoffeeCupDispenser dispenser;
 
     @Before
     public void setUp() throws Exception {
-
-        dispenser = new BeerGlassDispenser();
-
+        dispenser = new CoffeeCupDispenser();
     }
 
     @Test
     public void dispense() throws Exception {
-        boolean cond = dispenser.dispense() instanceof BeerGlass;
-        assertTrue(cond);
+        assertTrue(dispenser.dispense() instanceof CoffeeCup);
     }
 
 }

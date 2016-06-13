@@ -6,6 +6,6 @@ package io.zipcoder.designpatterns.factory;
 public class BeerGlassDispenser extends CupDispenser {
     @Override
     public Cup dispense() {
-        return null;
+        return new BeerGlass();
     }
 }
