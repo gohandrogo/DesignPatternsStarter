@@ -17,7 +17,7 @@ public class BeerGlassDispenserSpec {
     @Before
     public void setUp() throws Exception {
 
-        dispenser = new BeerGlassDispenser();
+        dispenser = BeerGlassDispenser.getInstance();
 
     }
 

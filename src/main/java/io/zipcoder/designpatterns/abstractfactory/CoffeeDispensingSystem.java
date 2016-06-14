@@ -9,6 +9,6 @@ import io.zipcoder.designpatterns.factory.Super.DrinkDispenser;
 class CoffeeDispensingSystem extends DispensingSystem{
     public DrinkDispenser drinkDispenser(){ return new CoffeeMachine(); }
     public CupDispenser cupDispenser(){
-        return new CoffeeCupDispenser();
+        return CoffeeCupDispenser.getInstance();
     }
 }

@@ -17,6 +17,6 @@ public class BeerDispenserSystem extends DispensingSystem {
 
     @Override
     public CupDispenser cupDispenser() {
-        return new BeerGlassDispenser();
+        return BeerGlassDispenser.getInstance();
     }
 }

@@ -16,7 +16,7 @@ public class CoffeeCupDispenserSpec {
 
     @Before
     public void setUp() throws Exception {
-        dispenser = new CoffeeCupDispenser();
+        dispenser = CoffeeCupDispenser.getInstance();
     }
 
     @Test

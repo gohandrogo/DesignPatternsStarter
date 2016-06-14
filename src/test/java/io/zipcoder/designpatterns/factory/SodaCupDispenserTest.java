@@ -18,7 +18,7 @@ public class SodaCupDispenserTest {
     @Before
     public void setUp() throws Exception {
 
-        dispenser = new SodaCupDispenser();
+        dispenser = SodaCupDispenser.getInstance();
 
     }
 
